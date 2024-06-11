@@ -1,2 +1,2 @@
-# Calculadora-de-Esfor-o
+# Calculadora-de-Esforço
 Calculadora de Esforço usando JavaScript
