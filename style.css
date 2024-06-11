@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+nav {
+    background-color: #b22222;
+    overflow: hidden;
+    padding: 0; /* Remove qualquer padding ao redor do nav */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0; /* Remove qualquer padding ao redor dos itens da lista */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0; /* Remove qualquer margem */
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos nas dimensões totais */
+}
+
+nav ul li a:hover {
+    background-color: #8b0000;
+    color: #ffdddd;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #b22222;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #b22222;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #b22222;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #b22222;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8b0000;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #b22222;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+}
+
+#historico {
+    list-style-type: none;
+    padding: 0;
+}
+
+#historico li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #b22222;
+    padding-bottom: 5px;
+}
+
+#historico li:last-child {
+    border-bottom: none;
+}
+
+/* Estilizando o link "Ver Histórico" */
+#verHistorico {
+    display: block;
+    margin: 20px auto;
+    /* Centraliza o link */
+    color: #b22222;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+#verHistorico:hover {
+    color: #8b0000;
+}

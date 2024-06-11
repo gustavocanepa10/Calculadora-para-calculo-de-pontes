@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Esforço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historico.html">Histórico</a></li>
+            <li><a href="tracao.html">Tração</a></li>
+            <li><a href="compressao.html">Compressão</a></li>
+        </ul>
+    </nav>
+
+    <!-- Calculadora de Esforço -->
+    <div class="container">
+        <h2>Calculadora de Esforço</h2>
+        
+        <label for="nomeBarra">Nome da Barra:</label>
+        <input type="text" id="nomeBarra" placeholder="Digite o nome da barra">
+        
+        <label for="esforco">Esforço Interno (N):</label>
+        <input type="number" id="esforco" placeholder="Digite o esforço interno">
+
+        <label for="tipo">Tipo de Barra:</label>
+        <select id="tipo">
+            <option value="C">C</option>
+            <option value="T">T</option>
+        </select>
+
+        <label for="comprimento">Comprimento da Barra (mm):</label>
+        <input type="number" id="comprimento" placeholder="Digite o comprimento da barra">
+
+        <button onclick="calcular()">Calcular</button>
+        
+
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
