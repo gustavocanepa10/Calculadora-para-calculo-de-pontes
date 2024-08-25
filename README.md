@@ -1,2 +1,2 @@
 # Calculadora-de-Esforço
-Calculadora de Esforço usando JavaScript
+Calculadora de Esforço usando HTML,CSS e JavaScript
